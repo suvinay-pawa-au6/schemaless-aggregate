@@ -1,4 +1,4 @@
-# schemaless-aggregat
+# schemaless-aggregate
  export const find = (name, query, hint = {}, sort = {}, limit = 0,filter={},skip=0) => {
     return new Promise((resolve, reject) => {
       mongoose.connection.db.collection(name, (err, res) => {
